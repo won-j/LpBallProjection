@@ -35,7 +35,7 @@ where 0 < p < `Inf`.
 		- Install packages [DataFrames](https://github.com/JuliaData/DataFrames.jl), [CSV](https://github.com/JuliaData/CSV.jl), [IterativeSolvers](https://github.com/JuliaLinearAlgebra/IterativeSolvers.jl), [PyCall](https://github.com/JuliaPy/PyCall.jl), [LatexPrint](https://github.com/scheinerman/LatexPrint.jl) by typing
 		```
 		(v1.5) pkg> add DataFrames
-		``
+		```
 		etc in the package mode (press `]` in the REPL mode)..
 	* Clone this repo.
 
