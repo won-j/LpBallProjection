@@ -25,7 +25,18 @@ where 0 < p < `Inf`.
 
 0. Preparation 
 	* Install [Julia](https://julialang.org) v1.5 or above.
-	* [Install packages](https://docs.julialang.org/en/v1/stdlib/Pkg/): [DataFrames](https://github.com/JuliaData/DataFrames.jl), [CSV](https://github.com/JuliaData/CSV.jl), [IterativeSolvers](https://github.com/JuliaLinearAlgebra/IterativeSolvers.jl), [PyCall](https://github.com/JuliaPy/PyCall.jl), [LatexPrint](https://github.com/scheinerman/LatexPrint.jl).
+	* Change directory to where this repo is cloned.
+	* [Install packages](https://docs.julialang.org/en/v1/stdlib/Pkg/): 
+		- Run Julia by
+		```
+		julia --project=.. 
+		```
+		to go into the REPL mode.
+		- Install packages [DataFrames](https://github.com/JuliaData/DataFrames.jl), [CSV](https://github.com/JuliaData/CSV.jl), [IterativeSolvers](https://github.com/JuliaLinearAlgebra/IterativeSolvers.jl), [PyCall](https://github.com/JuliaPy/PyCall.jl), [LatexPrint](https://github.com/scheinerman/LatexPrint.jl) by typing
+		```
+		(v1.5) pkg> add DataFrames
+		``
+		etc in the package mode (press `]` in the REPL mode)..
 	* Clone this repo.
 
 1. Reproducing Table 1
